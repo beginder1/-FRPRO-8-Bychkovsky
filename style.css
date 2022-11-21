@@ -1,0 +1,342 @@
+@font-face {
+    src: url('../fonts/Inter-Regular.ttf');
+    font-family: 'Inter'; 
+}
+@font-face {
+    src: url('../fonts/Inter-Bold.ttf');
+    font-family: 'Inter'; 
+}
+
+.body {
+    max-width: 1280px;   
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;  
+}
+
+.header {
+   display: flex;
+   flex-direction: row;
+   padding: 36px 93px 27px;
+   justify-content: space-between; 
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation :hover {
+    transition: all.2s ease;
+    color: blue;
+}
+.hot_Coffee {
+    
+    font-weight: 700;
+    font-size: 20px;
+    Line-height: 24.2px;
+            
+}
+.svg_search {
+    padding-left: 297.67px;
+}
+
+.search {
+
+padding-left: 12.4px;
+color: #718096;
+font-size: 16px;
+line-height: 19px;
+font-weight: 400;
+
+}
+.home {
+
+    padding-left: 186px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.articles {
+    
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    
+}
+.svg_social {
+
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    justify-content: space-between;  
+
+}
+.twitter {
+    
+    padding: 0px 35px;
+
+}
+.linkedin {
+
+    margin-right: 93px;
+}
+
+.headSection {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+    padding: 70px 93px;
+
+  }
+.makeBetterCoffee {
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+  
+  }
+.whyLearnHowToBlog {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4a5568;
+  }
+.scroods {
+    
+    padding-left: 102px;
+    
+}
+.cardLatest {
+
+    display: flex;
+    margin: 40px 93px;
+    padding-left: 53px;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+.contentCardLatest {
+
+    margin: 40px 0px;
+}
+.card-latest-text {
+
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D3748;
+}
+.card-latest {
+
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+}
+.date, .read {
+
+    font-size: 12px;
+    line-height: 15px;
+}
+.date {
+
+    font-weight: 400;
+    color: #718096;
+}
+.read {
+
+    font-weight: 700;
+    color: #2D3748;
+    border: none;
+    background-color: white;   
+}
+.date_read {
+
+    display: flex;
+    justify-content: space-between;
+} 
+.ManWithNotebook {
+
+    margin-left: 77px;
+}
+.container {
+
+    margin: 0 93px;
+    display: grid;
+    gap:33px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-latest-text2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748;    
+}
+
+.box-1, .box-2, .box-3 {
+
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+.contentBox {
+
+    margin: 18px 25px 25px 18px;
+}
+.highlightSection {
+
+    margin: 40px 93px;
+    background: #F7FAFC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentHighlightSection {
+
+    flex-direction: column;
+    margin: 100px 65px 120px;
+}
+
+.whatIsLoremIpsum {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px; 
+}
+
+.read {
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+    border: none;
+    background-color:#F7FAFC ;
+}
+.group-1 {
+
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 9px 11px;
+    margin: 0px 93px;
+    float: right;
+    
+} 
+.seeMore {
+    position: relative;
+    font-weight: 700;
+    font-size: 16.67px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-right: -66px;
+    z-index: 4;
+}
+.rectangle {
+    display: flex;
+    justify-content: end;
+    margin: -0px -15px 0;
+    position: relative;
+    z-index: 2;
+    
+
+}
+.arrow {
+    opacity: .8;
+    z-index: 0;
+}
+
+.footer {
+
+    border-top: 1px solid #E8E8E8;
+    margin-top: 43px;
+    padding: 0 93px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.hotCoffee1 {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.read, .readMore {
+    text-decoration: none;
+
+}
+.person_book {
+    margin: 0 90px;
+    width: -webkit-fill-available;
+  }
+  
+  .textArticle {
+    margin: 0 195px 60px;
+  }
+  
+  .headline {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #2d3748;
+  }
+  
+  .written {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2d3748;
+  }
+  
+  .date1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #718096;
+    padding-left: 20px;
+  }
+  
+  .line {
+    border-top: 1px solid #e8e7e7;
+    margin: 30px 0 35px;
+  }
+  
+  .TexT {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+  }
+  
+  .button {   
+    background-color: white;
+    border: none;
+    margin-left: 90%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .readMore:hover {
+    transition:0s;
+    font-size: 15px;  
+}
+
+.read:hover {
+    transition:0s;
+    font-size: 15px;    
+}
